@@ -1,21 +1,7 @@
 package com.arjava.swiperefreshlayout;
 
-import java.util.List;
-
 public class Model {
 
-
-    /*private List<SportsBean> sports;
-
-    public List<SportsBean> getSports() {
-        return sports;
-    }
-
-    public void setSports(List<SportsBean> sports) {
-        this.sports = sports;
-    }
-
-    public static class SportsBean {*/
         /**
          * idSport : 102
          * strSport : Soccer
@@ -61,5 +47,4 @@ public class Model {
         public void setStrSportDescription(String strSportDescription) {
             this.strSportDescription = strSportDescription;
         }
-//    }
 }

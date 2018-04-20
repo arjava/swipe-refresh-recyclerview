@@ -16,12 +16,10 @@ import java.util.List;
 public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
 
     private List<Model> modelList;
-    private int rowLayout;
     private Context context;
 
-    public Adapter(List<Model> sports, int item_rv, Context applicationContext) {
+    Adapter(List<Model> sports, Context applicationContext) {
         this.modelList = sports;
-        this.rowLayout = item_rv;
         this.context = applicationContext;
     }
 
